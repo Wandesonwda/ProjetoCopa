@@ -1,0 +1,75 @@
+:root{
+    --cor-fundo:hsla(0, 97%, 44%, 0.952);
+    --cor-hover: hsl(0, 0%, 50%);
+    --cor-link: hsl(0, 0%, 100%);
+
+}
+body{
+    background:  ('estadio_copa.jpg');
+    background-color: black;
+
+
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    height: 60px;
+    background-color: var(--cor-fundo);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+a{
+    text-decoration: none;
+    color: var(--cor-link);
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+}
+header nav ul li a{
+    transition: 0.5s;
+    padding: 20px 15px;
+}
+header nav ul li a:hover{
+    background-color: var(--cor-hover);
+}
+img {
+    width: 100%;
+} 
+
+.img2 {
+    width: 2%;
+    margin-right: 1%;
+} 
+section{
+    margin-right: 5%;
+    margin-left: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+h2 {
+    color: hsla(0, 97%, 44%, 0.952);
+}
+h5 {
+    color: white;
+}
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 1%;
+    text-align: right;
+    color: white;
+}
+#container-imagem {
+    text-align: center;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background: url('estadio_copa.jpg');
+    background-size: cover;
+}
